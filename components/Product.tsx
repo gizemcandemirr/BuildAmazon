@@ -17,7 +17,7 @@ const MIN_RATING =1;
 
 
 function Product(props: Props) {
-   
+   const value ="" ;
     const [rating] = useState(
         Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING
     )
@@ -31,7 +31,7 @@ function Product(props: Props) {
 
         <div className='flex'>
             {
-                Array(rating).fill().map( (_, i) => (
+                Array(rating).fill(value).map( (_, i) => (
                     <StarIcon className='h-5 text-yellow-500' />
                 ))
             }

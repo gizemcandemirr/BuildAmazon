@@ -1,10 +1,13 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Banner from '../components/Banner'
 import Header from '../components/Header'
 import ProductFeed from '../components/ProductFeed'
 
-const Home: NextPage = ({products}) => {
+type Props = {
+  products: [];
+}
+
+const Home = (props : Props) => {
   return (
     <div className="bg-gray-100">
       <Head>
@@ -18,7 +21,7 @@ const Home: NextPage = ({products}) => {
          <Banner />
          
          {/* products */}
-         <ProductFeed products={products} />
+         <ProductFeed products={props.products} />
         
        </main>
        
@@ -28,7 +31,7 @@ const Home: NextPage = ({products}) => {
 
 export default Home
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps(context:any) {
   const products = await fetch("https://fakestoreapi.com/products").then(
     (res) => res.json()
   );
