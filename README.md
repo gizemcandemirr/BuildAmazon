@@ -2,8 +2,8 @@
 Next.js, Redux, Tailwind CSS, Google Authentication, Stripe Checkout &amp; Webhooks | Firestore
 
 ## 1/2 Week  :
-⭐ Amazon Build Starter Template
-⭐ Starting the Build
+⭐ Amazon Build Starter Template \
+⭐ Starting the Build \
 ⭐ Building the Header Component
 ⭐ Implementing the Fake Store API
 ⭐ Building the Left Side of the Header
