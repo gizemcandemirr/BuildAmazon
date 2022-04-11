@@ -9,9 +9,14 @@ const Home: NextPage = () => {
         <title>Create Amazon</title>
       </Head> 
 
-           {/* header */}
-          
+       {/* header */}          
        <Header />
+       <main>
+         {/* banner */}
+         
+         {/* products */}
+       </main>
+       
     </div>
   )
 }
