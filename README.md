@@ -1,6 +1,8 @@
 # 🥳 BuildAmazon
 Next.js, Redux, Tailwind CSS, Google Authentication, Stripe Checkout &amp; Webhooks | Firestore
 
+Deploy front check : https://build-amazon-front.vercel.app/
+
 ## 1/2 Week  :
 ⭐ Amazon Build Starter Template \
 ⭐ Starting the Build \
