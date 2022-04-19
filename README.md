@@ -21,7 +21,7 @@ Deploy front check : https://build-amazon-front.vercel.app/
 ## 2/2 Week:
 
 ⭐ Implementing NextAuth Authentication \
-⭐ Implementing Firebase \
+⭐ Implementing Firebase ✅ \
 ⭐ Modifying the Header Component \
 ⭐ Authorising Redirect URIs \
 ⭐ Modifying _app.js \
